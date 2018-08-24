@@ -10,16 +10,16 @@ export default {
   components: { VoBasic },
   created () {
     this.chartData = {
-      name: 'Doan Truong - Thinh Tran',
+      name: 'Cha Tuyen Uy - Fr.Tri',
         children: [
-          { name: 'Angular' },
-          {
-            name: 'React',
-            children: [{ name: 'Preact' }]
-          },
-          {
-            name: 'Vue',
-            children: [{ name: 'Moon' }]
+          { name: 'Doan Truong - Thinh Tran',
+            children:
+            [
+              {name: 'PQT - Jade Phan'},
+              {name: 'PNH - Duc Le'},
+              {name: 'Thu Ky - Amy Dang'},
+              {name: 'Thu Quy - Tru Nguyen'}
+            ] 
           }
         ]
     }
