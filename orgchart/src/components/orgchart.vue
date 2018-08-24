@@ -1,6 +1,6 @@
 <template>
   <div>
-    <vo-basic :data="chartData" :draggable="true" :pan="true" :zoom="true"></vo-basic>
+    <vo-basic :data="chartData"></vo-basic>
   </div>
 </template>
 
