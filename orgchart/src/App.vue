@@ -3,17 +3,20 @@
     <img alt="Vue logo" src="./assets/tnttlogo.png">
     <h1>Welcome to ADLNC TNTT!</h1>
     <orgchart/>
+    <bch/>
   </div>
 </template>
 
 <script>
 import orgchart from './components/orgchart.vue'
+import bch from './components/bch.vue'
 
 export default {
   name: 'app',
   components: {
-    orgchart
-  }
+    orgchart,
+    bch
+    }
 }
 </script>
 

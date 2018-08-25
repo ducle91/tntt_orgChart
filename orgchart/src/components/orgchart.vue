@@ -7,6 +7,7 @@
 <script>
 import { VoBasic } from 'vue-orgchart'
 export default {
+  name:'btv',
   components: { VoBasic },
   created () {
     this.chartData = {
