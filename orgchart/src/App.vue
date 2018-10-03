@@ -1,9 +1,9 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/tnttlogo.png">
-    <h1>Welcome to ADLNC TNTT!</h1>
-    <orgchart/>
-    <bch/>
+    <div id="app">
+      <img class="center" alt="Vue logo" src="./assets/tnttlogo.png">
+      <h1>Welcome to ADLNC TNTT!</h1>
+      <orgchart/>
+      <bch/>
   </div>
 </template>
 
